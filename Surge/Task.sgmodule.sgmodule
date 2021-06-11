@@ -36,23 +36,24 @@ CrazyJoy任务 = type=cron,cronexp="10 9 * * *",wake-system=1,timeout=3600,scrip
 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_unsubscribe.js
 
 ##### 一天几次：
-摇京豆 = type=cron,cronexp="5 0,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_club_lottery.js
-crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_crazy_joy_coin.js
-金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_gold_creator.js
-东东健康社区 = type=cron,cronexp="13 1,6,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_health.js
-京东家庭号 = type=cron,cronexp="1 12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_family.js
+跳跳乐瓜分京豆 = type=cron,cronexp="1 0,11,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_jump.js
+摇京豆 = type=cron,cronexp="8 0,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_club_lottery.js
+点点券 = type=cron,cronexp="13 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_necklace.js
+赚京豆 = type=cron,cronexp="14 0,7,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_syj.js
+京东极速版红包 = type=cron,cronexp="20 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_speed_redpocke.js
+京东全民开红包 = type=cron,cronexp="2 1,2,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_redPacket.js
+crazyJoy挂机 = type=cron,cronexp="3 1,12 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_crazy_joy_coin.js
+金榜创造营 = type=cron,cronexp="4 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_gold_creator.js
+明星小店 = type=cron,cronexp="5 1,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_star_shop.js
+东东健康社区 = type=cron,cronexp="6 1,6,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_health.js
+每日抽奖 = type=cron,cronexp="7 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_daily_lottery.js
+女装盲盒 = type=cron,cronexp="35 1,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_nzmh.js
 口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_bookshop.js
 京喜财富岛 = type=cron,cronexp="5 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_cfd.js
-每日抽奖 = type=cron,cronexp="13 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_daily_lottery.js
-获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_get_share_code.js
-跳跳乐瓜分京豆 = type=cron,cronexp="1 0,11,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_jump.js
 京喜农场 = type=cron,cronexp="0 9,12,18 * * *",timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_jxnc.js
-点点券 = type=cron,cronexp="10 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_necklace.js
-女装盲盒 = type=cron,cronexp="35 1,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_nzmh.js
-京东全民开红包 = type=cron,cronexp="1 1,2,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_redPacket.js
-京东极速版红包 = type=cron,cronexp="20 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_speed_redpocke.js
-明星小店 = type=cron,cronexp="0 1,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_star_shop.js
-赚京豆 = type=cron,cronexp="10 0,7,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_syj.js
+京东家庭号 = type=cron,cronexp="1 12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_family.js
+获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_get_share_code.js
+
 
 ##### 时间段内：
 东东健康社区收集能量 = type=cron,cronexp="5-45/20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/jd_health_collect.js

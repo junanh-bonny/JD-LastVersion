@@ -31,7 +31,7 @@ CrazyJoy任务 = type=cron,cronexp="10 9 * * *",wake-system=1,timeout=3600,scrip
 京喜领88元红包 = type=cron,cronexp="6 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JDZero/main/jd_jxlhb.js
 宠汪汪邀请助力与赛跑助力 = type=cron,cronexp="15 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JDZero/main/jd_joy_run.js
 监控crazyJoy分红 = type=cron,cronexp="10 12 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JDZero/main/jd_crazy_joy_bonus.js
-小米运动 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JD-LastVersion/master/backUp/xmSports.js
+小米运动 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JD-LastVersion/master/backUp/xmSports.js
 东东小窝 = type=cron,cronexp="16 22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JDZero/main/jd_small_home.js
 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/junanh-bonny/JDZero/main/jd_unsubscribe.js
 

@@ -93,5 +93,16 @@ crazyJoy挂机 = type=cron,cronexp="3 1,12 * * *",wake-system=1,timeout=20,scrip
 宠汪汪助力更新Token = type=http-response,pattern=^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code=, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_run.js
 宠汪汪助力获取Token = type=http-request,pattern=^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId=, max-size=0, script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_run.js
 
+赚30元 = type=cron,cronexp="3 1,6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_earn30.js
+美丽研究院 = type=cron,cronexp="1 7,12,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_beauty.js
+汪汪乐园 = type=cron,cronexp="20 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_joy_park_newtask.js
+特务Z = type=cron,cronexp="23 8,9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_superBrand.js
+京东试用 = type=cron,cronexp="30 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_try.js
+柠檬推一推 = type=cron,cronexp="0 6-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_tyt.js
+柠檬我是大老板农场 = type=cron,cronexp="5 0-23/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_wsdlb.js
+粉丝互动 = type=cron,cronexp="34 6,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_wxFans.js
+柠檬赚金币 = type=cron,cronexp="0 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_zjb.js
+
+
 [MITM]
 hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com

@@ -23,7 +23,6 @@
 领券中心签到 = type=cron,cronexp="21 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ccSign.js
 京东保价 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_price.js
 取关所有主播 = type=cron,cronexp="55 6 * * *",wake-system=1,timeout=3600,script-path=jd_unsubscriLive.js
-柠檬赚金币 = type=cron,cronexp="0 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/jd_zjb.js
 京东极速版 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_speed_sign.js
 领京豆额外奖励 = type=cron,cronexp="9 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_home.js
 京东秒秒币 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ms.js

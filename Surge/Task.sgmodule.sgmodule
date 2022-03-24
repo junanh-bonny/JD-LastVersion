@@ -3,9 +3,8 @@
 
 [Script]
 
-
 ##### 每分钟：
-财富岛兑换红包 = type=cron,cronexp="50 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_cfd_hb.js
+财富岛兑换红包 = type=cron,cronexp="49 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_cfd_hb.js
 汪汪乐园 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_joy_park.js
 整点京豆雨 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/msechen/jdrain/main/jd_redrain.js
 京东CK检测 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_CheckCK.js

@@ -3,7 +3,6 @@
 
 [Script]
 ###### 每分钟：
-京东CK检测 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_CheckCK.js
 摇钱树助力 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_moneyTree_help.js
 
 ###### 一次性：
